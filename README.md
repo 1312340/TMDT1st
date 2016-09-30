@@ -2,10 +2,9 @@
 
 **BlogSpot** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
-Danh sách sinh viên: **
+Danh sách sinh viên:
 	1. Đào Chí Minh		1312359
 	2. Lê Quốc Tấn Lộc	1312340
-**
 
 URL: **Insert your Heroku URL here**
 
