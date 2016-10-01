@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'posts#index'
-
+  resources :posts
   # New post
   get 'posts/new' => 'posts#new'
 
