@@ -10,6 +10,10 @@ class PostsController < ApplicationController
   def show
     @post = Post.find(params[:id])
   end
+  
+  def edit
+    @post = Post.find(params[:id])
+  end
 
   def create
     @post = Post.new(post_param)
@@ -21,6 +25,21 @@ class PostsController < ApplicationController
       redirect_to new_post_path, flash: { error: @post.errors.full_messages }
     end
   end
+  
+  def update
+    @post = Post.find(params[:id])
+
+    if @post.update(params.require(:post).permit(:title, :content))
+      render plain: 'success'
+    end
+  end
+  
+  def destroy
+  @post = Post.find(params[:id])
+  @post.destroy
+  render plain: 'Deleted'
+  end
+  
 
   private
   def post_param

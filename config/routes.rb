@@ -6,6 +6,10 @@ Rails.application.routes.draw do
 
   # list các posts
   get 'posts' => 'posts#index'
+  
+  delete 'posts/:id' => 'posts#destroy'
+  
+  patch 'posts/:id' => 'posts#update'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

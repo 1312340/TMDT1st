@@ -6,7 +6,7 @@ Danh sách sinh viên:
 	Đào Chí Minh		1312359
 	Lê Quốc Tấn Lộc		1312340
 
-URL: http://blogspot1312359-1312340.herokuapp.com
+URL: **Insert your Heroku URL here**
 
 ## Chức năng
 
@@ -41,10 +41,10 @@ Danh sách chức năng **thêm** đã làm nhưng chưa được liệt kê ở
 Danh sách chức năng **phụ** đã làm nhưng không được liệt kê ở trên:
 
 Các chuẩn đầu ra cần thực hiện:
-* [ ] Git với Centralize Workflow
-* [ ] Git theo Feature Branch Workflow
-* [ ] Git theo Feature Branch Workflow có Pull Request
-* [ ] Git theo Gitflow Workflow
+* [x] Git với Centralize Workflow
+* [x] Git theo Feature Branch Workflow
+* [x] Git theo Feature Branch Workflow có Pull Request
+* [x] Git theo Gitflow Workflow
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
