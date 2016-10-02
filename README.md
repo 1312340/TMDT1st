@@ -6,7 +6,7 @@ Danh sách sinh viên:
 	Đào Chí Minh		1312359
 	Lê Quốc Tấn Lộc		1312340
 
-URL: http://blogspot-1312359-1312340.herokuapp.com/
+URL: **Insert your Heroku URL here**
 
 ## Chức năng
 
