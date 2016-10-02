@@ -49,7 +49,7 @@ Các chuẩn đầu ra cần thực hiện:
 
 Here's a walkthrough of implemented user stories:
 
-![Demo.gif]
+![Video Walkthrough](Demo.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
